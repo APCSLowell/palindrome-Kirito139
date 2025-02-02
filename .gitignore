@@ -1,2 +1,16 @@
-build/
-.gradle/
+# Gitignore for APCS Lowell repositories
+
+# Ignore compiled processing class files
+build-tmp/
+
+# ignore vim .swp files
+*.swp
+
+# ignore Processing .swo files
+*.swo
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+

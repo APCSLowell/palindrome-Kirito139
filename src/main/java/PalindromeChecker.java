@@ -33,7 +33,8 @@ public class PalindromeChecker {
         }
     }
     public boolean palindrome(String word) {
-        return reverse(word).equals(word);
+        String foobar = onlyLetters(word).toLowerCase();
+        return reverse(foobar).equals(foobar);
     }
 
     public String reverse(String str) {
